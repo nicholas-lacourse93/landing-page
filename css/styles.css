@@ -53,7 +53,7 @@ a {
 .cta-box {
     background-color: #3882f6;
     padding: 16px 48px;
-    margin: 64px 180px;
+    margin: 80px 180px;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -81,4 +81,30 @@ a {
 .cta-button {
     padding: 16px 32px;
     margin: 0px;
+}
+
+.quote-container, .quote-box {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote-container {
+    display: flex;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 100px 330px;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    text-align: right;
 }
