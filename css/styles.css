@@ -36,7 +36,7 @@ a {
     padding: 32px 0px;
 }
 
-.header-container, .footer-container {
+.header-container, .hero-container, .footer-container {
     background-color: #1f2937;
 }
 
@@ -48,6 +48,38 @@ a {
 .header-container a {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-container {
+    display: flex;
+    margin: 0px;
+    padding: 100px 180px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-img {
+    background-color: grey;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-container div {
+    color: #f9faf8;
+}
+
+.hero-button button {
+    background-color: #3882f6;
+    padding: 4px 16px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
 }
 
 .cta-box {
